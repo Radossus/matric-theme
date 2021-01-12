@@ -1,6 +1,0 @@
-.idea
-
-# ignore log files and databases
-*.log
-*.sql
-*.sqlite
