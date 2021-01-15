@@ -5,7 +5,7 @@
 */
 ?>
 <?php get_header(); ?>
-
+<img class="img-fluid" src="<?php bloginfo('template_url'); ?>/images/Website-Under-Construction.jpg" >
 <div id="landing-intro">
     <div class="container" id="intro-text">
         <div class="d-flex justify-content-between">
