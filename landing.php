@@ -88,7 +88,7 @@
             <p>V posledních 5 letech se zaměřuji na architekturu IT infrastruktury s ohledem na současné trendy Cloud computingu a zajištění kybernetické bezpečnosti.</p>
 
         </div>
-        <div class="col-sm-4"><img class="alignright wp-image-27 size-full" src="http://localhost:8080/wp-test/wp-content/uploads/2021/01/me-1.jpg" alt="" width="287" height="314" /></div>
+        <div class="col-sm-4"><img class="alignright wp-image-27 size-full" src="<?php bloginfo('template_url'); ?>/images/me-1.jpg" alt="" width="287" height="314" /></div>
     </div>
 </div>
 
