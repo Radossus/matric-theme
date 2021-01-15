@@ -28,9 +28,9 @@
 <div id="cards" class="bg-light pt-5 pb-5">
     <div class="container">
         <div class="row">
-            <div class="col-sm-4">
-                <div class="card  bg-main-blue text-white">
-                    <h5 class="card-header bg-transparent">Cloud Azure Infrastruktura</h5>
+            <div class="col-sm-4 py-2">
+                <div class="card bg-main-blue text-white h-100">
+                    <h5 class="card-header">Cloud Azure Infrastruktura</h5>
                     <div class="card-body">
                         <p class="card-text">
                         <li>Správa zdrojů cloudové infrastruktury</li>
@@ -41,9 +41,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="card  bg-main-blue text-white">
-                    <h5 class="card-header bg-transparent">ICT On-Prem infrastruktura</h5>
+            <div class="col-sm-4 py-2">
+                <div class="card bg-main-blue text-white h-100">
+                    <h5 class="card-header">ICT On-Prem infrastruktura</h5>
                     <div class="card-body">
                         <p class="card-text">
                             <li>Správa zdrojů infrastruktury </li>
@@ -54,9 +54,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="card bg-main-blue text-white">
-                    <h5 class="card-header bg-transparent">Office 365</h5>
+            <div class="col-sm-4 py-2">
+                <div class="card bg-main-blue text-white h-100">
+                    <h5 class="card-header">Office 365</h5>
                     <div class="card-body">
                         <p class="card-text">
                         <li>Konzultace plánů Office 365</li>
@@ -96,7 +96,7 @@
     <h1>Reference ::</h1>
         <div class="row">
                 <div class="col-sm-4 py-2">
-                    <div class="card card text-white h-100 bg-main-blue" >
+                    <div class="card text-white h-100 bg-main-blue" >
                         <div class="card-body">
                             <div class="card-title">
                                 <h5>Vladimír Gazdík</h5>
@@ -108,7 +108,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4 py-2">
-                    <div class="card card text-white bg-main-blue  h-100">
+                    <div class="card text-white bg-main-blue  h-100">
                         <div class="card-body">
                             <div class="card-title">
                                 <h5>Mgr. Roman Krakovka</h5>
@@ -120,7 +120,7 @@
                     </div>
                 </div>
             <div class="col-sm-4 py-2">
-                <div class="card card text-white bg-main-blue  h-100">
+                <div class="card text-white bg-main-blue  h-100">
                     <div class="card-body">
                         <div class="card-title">
                             <h5>Marie Baranová</h5>
@@ -135,7 +135,7 @@
 
         <div class="row">
             <div class="col-sm-4 py-2">
-                <div class="card card text-white bg-main-blue  h-100">
+                <div class="card text-white bg-main-blue  h-100">
                     <div class="card-body">
                         <div class="card-title">
                             <h5>Ivo Vávra</h5>
@@ -146,7 +146,7 @@
                 </div>
             </div>
             <div class="col-sm-4 py-2">
-                <div class="card card text-white bg-main-blue  h-100">
+                <div class="card text-white bg-main-blue  h-100">
                     <div class="card-body">
                         <div class="card-title">
                             <h5>Gatis Grosmanis</h5>
@@ -157,7 +157,7 @@
                 </div>
             </div>
             <div class="col-sm-4 py-2">
-                <div class="card card text-white h-100 bg-main-blue" >
+                <div class="card text-white h-100 bg-main-blue" >
                     <div class="card-body">
                         <div class="card-title">
                             <h5>Zuzana Paloch</h5>
