@@ -1,5 +1,9 @@
-<footer>
-   
+<footer class="bg-dark">
+   <div class="container pt-5 pb-5 text-white">
+       <h1 class="text-white">Kontakt ::</h1>
+       <h6>Email: radek.slachta@email.cz</h6>
+       <h6>Tel: +420 608 00 1536</h6>
+   </div>
 </footer>
 
 
@@ -38,15 +42,10 @@ $(document).ready(function(){
 });
 </script>
 
-
-
-
-
-
-
-
-
     <?php wp_footer(); ?>
+
+<!-- ICONS -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   </body>
 </html>
