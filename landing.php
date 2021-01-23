@@ -13,7 +13,7 @@
                     <h1 class="text-white">Solution Engineer</h1>
                 </div>
                 <div id="landing-text">
-                    <p>Poskytuji služby v oblasti podnikových informačních systémů. Mým cílem je navrhnout a udr6ovat spolehlivou infrastrukturu informačních systémů, která pokrývá celou řadu požadavků stanovených IT strategií.</p>
+                    <p>Poskytuji služby v oblasti podnikových informačních systémů. Mým cílem je navrhnout a udržovat spolehlivou infrastrukturu informačních systémů, která pokrývá celou řadu požadavků stanovených IT strategií.</p>
                 </div>
             </div>
             <div class="text-right" id="text-animation">
