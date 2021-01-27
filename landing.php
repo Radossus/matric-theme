@@ -86,6 +86,8 @@
 
             <p>V posledních 5 letech se zaměřuji na architekturu IT infrastruktury s ohledem na současné trendy Cloud computingu a zajištění kybernetické bezpečnosti.</p>
 
+            <p><a a class="btn btn-primary" href="https://www.linkedin.com/in/radekslachta/" role="button" target="_blank"><span data-feather="linkedin"></span></a></p>
+
         </div>
         <div class="col-sm-4"><img class="alignright wp-image-27 size-full" src="<?php bloginfo('template_url'); ?>/images/me-1.jpg" alt="" width="287" height="314" /></div>
     </div>
@@ -192,5 +194,10 @@
             $("#card-info").css("opacity","0.8");
         });
     });
+</script>
 
+<!-- Icons -->
+<script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+<script>
+    feather.replace()
 </script>
