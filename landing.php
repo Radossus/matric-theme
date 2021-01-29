@@ -86,12 +86,12 @@
 
             <p>V posledních 5 letech se zaměřuji na architekturu IT infrastruktury s ohledem na současné trendy Cloud computingu a zajištění kybernetické bezpečnosti.</p>
 
+            <div class="mb-3">
             <span><a a class="btn btn-primary" href="https://www.linkedin.com/in/radekslachta/" role="button" target="_blank"><span data-feather="linkedin"></span></a></span>
-
             <span><a a class="btn btn-primary" href="https://twitter.com/radoss" role="button" target="_blank"> <span data-feather="twitter"></span></a></span>
-
+            </div>
         </div>
-        <div class="col-sm-4"><img class="rounded wp-image-27 size-full float-right" src="<?php bloginfo('template_url'); ?>/images/me-1.jpg" alt="" width="287" height="314" /></div>
+        <div class="col-sm-4 text-center"><img class="rounded wp-image-27 size-full" src="<?php bloginfo('template_url'); ?>/images/me-1.jpg" alt="" width="287" height="314" /></div>
     </div>
 </div>
 
