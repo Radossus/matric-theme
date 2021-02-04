@@ -48,7 +48,7 @@
                         <p class="post-meta"><?php the_time( 'F jS, Y' ); ?></p>
                         <p class="card-text">
                             <?php echo get_the_excerpt() ?>
-                            <a class="align-self-end btn btn-block btn-primary mt-3" style="margin-top: auto;" href="<?php the_permalink() ?>" role="button">Číst více</a>
+                            <a class="align-self-end btn btn-block btn-primary text-white mt-3" style="margin-top: auto;" href="<?php the_permalink() ?>" >Číst více</a>
                         </p>
                     </div>
                 </div>
