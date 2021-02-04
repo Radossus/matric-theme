@@ -4,8 +4,8 @@
        <h6><span data-feather="mail"></span> <a href="mailto: radek.slachta@email.cz" class="text-white"> radek.slachta@email.cz</a></h6>
        <h6><span data-feather="phone-call"></span> +420 608 00 1536</h6>
        <div class="mt-3">
-           <span><a a class="btn btn-primary" href="https://www.linkedin.com/in/radekslachta/" role="button" target="_blank"><span data-feather="linkedin"></span></a></span>
-           <span><a a class="btn btn-primary" href="https://twitter.com/radoss" role="button" target="_blank"> <span data-feather="twitter"></span></a></span>
+           <span><a class="btn btn-primary" href="https://www.linkedin.com/in/radekslachta/" role="button" target="_blank"><span data-feather="linkedin"></span></a></span>
+           <span><a class="btn btn-primary" href="https://twitter.com/radoss" role="button" target="_blank"> <span data-feather="twitter"></span></a></span>
        </div>
    </div>
 </footer>

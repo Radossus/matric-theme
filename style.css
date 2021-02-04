@@ -27,8 +27,7 @@ h1{
 }
 
 h2 {
-
-
+    color: var(--main-blue);
 }
 
 header{
@@ -125,10 +124,13 @@ footer{
 
 a {
     text-decoration: none;
+    color: #180D5B;
 }
 
 a:hover{
-    text-decoration: underline;
+    text-decoration: none;
+
+
 }
 
 a:active{
