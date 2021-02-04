@@ -22,16 +22,17 @@
 <div class="bg-light">
     <div class="container pt-3 pb-3">
         <div class="text-center">
-        <a href="<? echo get_home_url().'/clanky'; ?>" class="btn btn-success btn-lg m-1" role ="button">Všechny články</a>
-        <?php
-        $categories = get_the_category();
-        if ( $categories ) {
-            foreach ( $categories as $category ) {
-                $output .= '<a class="btn btn-success btn-lg m-1" role ="button" href="' . get_category_link( $category->term_id ) . '">' . $category->cat_name . '</a>';
-            }
-                echo trim($output);
-            }
-        ?>
+            <a href="<? echo get_home_url().'/blog'; ?>" class="btn btn-success btn-lg m-1" role ="button">Všechny články</a>
+            <?php
+            $categories = get_categories();
+            
+            if ( $categories ) {
+                foreach ( $categories as $category ) {
+                    $output .= '<a class="btn btn-success btn-lg m-1" href="' . get_category_link( $category->term_id ) . '">' . $category->cat_name . '</a>';
+                }
+                    echo trim($output);
+                }
+            ?>
         </div>
     </div>
 </div>
