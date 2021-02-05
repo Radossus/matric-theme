@@ -1,5 +1,5 @@
 <?php
-#require_once('class-wp-bootstrap-navwalker.php');
+require_once('class-wp-bootstrap-navwalker.php');
 add_filter('show_admin_bar', '__return_false');
 
 /**
@@ -14,8 +14,6 @@ add_action( 'after_setup_theme', 'register_navwalker' );
 register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'matric-theme' ),
 ) );
-
-
 
 
 
