@@ -1,5 +1,5 @@
 <?php
-#require_once('class-wp-bootstrap-navwalker.php');
+require_once('class-wp-bootstrap-navwalker.php');
 add_filter('show_admin_bar', '__return_false');
 
 /**
