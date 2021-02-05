@@ -1,4 +1,4 @@
-<footer class="bg-dark">
+<footer class="bg-dark" id="kontakt">
    <div class="container pt-5 pb-5 text-white">
        <h1 class="text-white">Kontakt ::</h1>
        <h6><span data-feather="mail"></span> <a href="mailto: radek.slachta@email.cz" class="text-white"> radek.slachta@email.cz</a></h6>
