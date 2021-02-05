@@ -42,9 +42,9 @@
         <div class="row p-2">
             <?php while(have_posts()) : the_post(); ?>
             <div class="col-sm-6 col-lg-4 py-2">
-                <div class="card h-100">
+                <div class="card h-100 bg-light">
                     <div class="card-body d-flex flex-column">
-                        <h2 class="card-title"><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
+                        <h2 class="card-title "><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
                         <p class="post-meta"><?php the_time( 'F jS, Y' ); ?></p>
                         <p class="card-text">
                             <?php echo get_the_excerpt() ?>

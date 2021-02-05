@@ -1,10 +1,22 @@
 <?php
-require_once('wp_bootstrap_navwalker.php');
+require_once('class-wp-bootstrap-navwalker.php');
 add_filter('show_admin_bar', '__return_false');
 
+/**
+ * Register Custom Navigation Walker
+ */
+function register_navwalker(){
+    require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+}
+add_action( 'after_setup_theme', 'register_navwalker' );
+
 register_nav_menus( array(
-    'primary' => __( 'Primary Menu', 'MyTheme' ),
+    'primary' => __( 'Primary Menu', 'matric-theme' ),
 ) );
+
+
+
+
 
 if ( ! function_exists( 'bootblog_pagination' ) ) :
 /**
