@@ -38,7 +38,7 @@
 </div>
 
 <div class="bg-white">
-    <div class="container pt-3">
+    <div class="container pt-3 pb-3">
         <div class="row p-2">
             <?php while(have_posts()) : the_post(); ?>
                 <article>
