@@ -179,7 +179,7 @@
         <h1 class="text-white">Poslední příspěvky z blogu ::</h1>
         <div class="row p-2">
             <?php
-            $args = array( 'numberposts' => '5', 'tax_query' => array(
+            $args = array( 'numberposts' => '3', 'tax_query' => array(
                 array(
                     'taxonomy' => 'post_format',
                     'field'    => 'slug',
