@@ -174,8 +174,57 @@
         </div>
     </div>
 </div>
+<div class="bg-main-blue">
+    <div class="container pt-5 pb-5">
+        <h1 class="text-white">Poslední příspěvky z blogu ::</h1>
+        <div class="row p-2">
+            <?php
+            $args = array( 'numberposts' => '5', 'tax_query' => array(
+                array(
+                    'taxonomy' => 'post_format',
+                    'field'    => 'slug',
+                    'terms'    => 'post-format-aside',
+                    'operator' => 'NOT IN'
+                ),
+                array(
+                    'taxonomy' => 'post_format',
+                    'field'    => 'slug',
+                    'terms'    => 'post-format-image',
+                    'operator' => 'NOT IN'
+                )
+            ) );
+            $recent_posts = wp_get_recent_posts( $args );
 
+            //var_dump($recent_posts);
 
+            foreach( $recent_posts as $recent ){
+                printf('<div class="col-sm-6 col-lg-4 py-2">');
+                    printf('<div class="card h-100 bg-light">');
+                        printf('<div class="card-body d-flex flex-column">');
+                            printf( '<h2 class="card-title "><a href="%1$s">%2$s</a></h2>',
+                                esc_url( get_permalink( $recent['ID'] ) ),
+                                apply_filters( 'the_title', $recent['post_title'], $recent['ID'] )
+                            );
+                            $date =  new DateTime($recent['post_date_gmt']);
+                            printf('<p class="post-meta"> <span data-feather="calendar" style="margin-top: -7px;"></span> %1$s </p>',
+                                $date->format('d. m. Y')
+                                        );
+                                printf('<p class="card-text"> %1$s [...]</p>',
+                                    strip_tags(substr($recent['post_content'],0,200))
+                                );
+                        printf('</div>');
+                               printf('<div class="pl-3 pr-3 pb-3">');
+                                    printf('<a class="align-self-end btn btn-block btn-primary text-white" href="%1$s" >Číst více</a>',
+                                        esc_url( get_permalink( $recent['ID'] ))
+                                   );
+                                printf('</div>');
+                    printf('</div>');
+                printf('</div>');
+            }
+            ?>
+        </div>
+    </div>
+</div>
 
 <?php get_footer(); ?>
 

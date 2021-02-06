@@ -45,7 +45,7 @@
                 <div class="card h-100 bg-light">
                     <div class="card-body d-flex flex-column">
                         <h2 class="card-title "><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
-                        <p class="post-meta"><?php the_time( 'F jS, Y' ); ?></p>
+                        <p class="post-meta"><span data-feather="calendar" style="margin-top: -7px;"></span> <?php the_time( 'd. m. Y' ); ?></p>
                         <p class="card-text">
                             <?php echo get_the_excerpt() ?>
                         </p>
