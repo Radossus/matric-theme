@@ -4,7 +4,7 @@
         <div class="d-flex justify-content-between">
             <div id ="card-info" class="p-2 mt-5 mb-5" >
                 <div id="landing-header">
-                    <h1 class="text-white">Solution Engineer</h1>
+                    <h1 class="text-white">Cloud Engineer</h1>
                 </div>
                 <div id="landing-text">
                     <p>Poskytuji služby v oblasti podnikových informačních systémů. Mým cílem je navrhnout a udržovat spolehlivou infrastrukturu informačních systémů, která pokrývá celou řadu požadavků stanovených IT strategií.</p>
