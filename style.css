@@ -205,6 +205,23 @@ nav.navbar-custom li.divider {
     }
 }
 
+.wpforms-form{
+    color: white;
+    background-color: var(--main-blue);
+    padding: 1.5em;
+    border-radius: 5px;
+}
+
+div.wpforms-container-full .wpforms-form label.wpforms-error {
+    color: white !important;
+
+}
+
+div.wpforms-container-full .wpforms-form input[type=submit],
+div.wpforms-container-full .wpforms-form button[type=submit] {
+    border-radius: 5px;
+}
+
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) { }
 

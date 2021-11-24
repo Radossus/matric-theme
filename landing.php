@@ -74,11 +74,7 @@
 
 
 <div class="container pt-5 pb-5" id="main-text ">
-    <?php while(have_posts()) : the_post(); ?>
 
-        <?php the_content(); ?>
-
-    <?php endwhile; wp_reset_query();?>
     <div class="row">
         <div class="col-sm-8">
             <h1>O mně ::</h1>
@@ -225,6 +221,18 @@
         </div>
     </div>
 </div>
+<div class="bg-light">
+    <div class="container pt-5 pb-5" >
+        <h1>Kontaktní formulář ::</h1>
+    <?php while(have_posts()) : the_post(); ?>
+
+        <?php the_content(); ?>
+
+    <?php endwhile; wp_reset_query();?>
+
+    </div>
+</div>
+
 
 <?php get_footer(); ?>
 
