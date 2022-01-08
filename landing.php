@@ -16,11 +16,17 @@
                     <p>Poskytuji služby v oblasti podnikových informačních systémů. Mým cílem je navrhnout a udržovat spolehlivou infrastrukturu informačních systémů, která pokrývá celou řadu požadavků stanovených IT strategií.</p>
                 </div>
             </div>
+            <div class="d-flex justify-content-center mb-5 mt-5">
+                <img class="rounded" src="<?php bloginfo('template_url'); ?>/images/badge-az-104a.png" />
+                <img class="rounded" src="<?php bloginfo('template_url'); ?>/images/badge-az-500.png" />
+            </div>
+            <!--
             <div class="text-right" id="text-animation">
                 <span id="text1" class="float-right">Consultancy</span>
                 <span id="text2">Optimalisation</span>
                 <span id="text3" class="m-auto w-auto">Clouds</span>
             </div>
+            -->
         </div>
     </div>
 </div>
@@ -221,6 +227,7 @@
         </div>
     </div>
 </div>
+<!--
 <div class="bg-light">
     <div class="container pt-5 pb-5" >
         <h1>Kontaktní formulář ::</h1>
@@ -232,6 +239,7 @@
 
     </div>
 </div>
+-->
 
 
 <?php get_footer(); ?>
