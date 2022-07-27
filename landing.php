@@ -17,8 +17,8 @@
                 </div>
             </div>
             <div class="d-flex justify-content-center mb-5 mt-5">
+                <img class="rounded" src="<?php bloginfo('template_url'); ?>/images/badge-az-305.png" />
                 <img class="rounded" src="<?php bloginfo('template_url'); ?>/images/badge-az-104a.png" />
-                <img class="rounded" src="<?php bloginfo('template_url'); ?>/images/badge-az-500.png" />
             </div>
             <!--
             <div class="text-right" id="text-animation">
