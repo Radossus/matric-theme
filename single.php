@@ -24,6 +24,7 @@
         <div class="text-center">
             <a href="<? echo get_home_url().'/blog'; ?>" class="btn btn-success btn-lg m-1" role ="button">Všechny články</a>
             <?php
+            $output = '';
             $categories = get_categories();
 
             if ( $categories ) {
