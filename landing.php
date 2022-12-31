@@ -13,7 +13,7 @@
                     <h1 class="text-white">Cloud Engineer</h1>
                 </div>
                 <div id="landing-text">
-                    <p>Poskytuji služby v oblasti podnikových informačních systémů. Mým cílem je navrhnout a udržovat spolehlivou infrastrukturu informačních systémů, která pokrývá celou řadu požadavků stanovených IT strategií.</p>
+                    <p>Poskytuji služby v oblasti cloudových a hybridních infrastruktur. Mým cílem je navrhnout a udržovat spolehlivou infrastrukturu informačních systémů, která pokrývá celou řadu požadavků stanovených IT strategií.</p>
                 </div>
             </div>
             <div class="d-flex justify-content-center mb-5 mt-5">
@@ -84,9 +84,21 @@
     <div class="row">
         <div class="col-sm-8">
             <h1>O mně ::</h1>
-            <p>Poskytuji profesionální služby v oblasti informačních systémů. Mým cílem je navrhnout a udržovat spolehlivou infrastrukturu informačních a komunikačních technologií, která pokrývá celou řadu požadavků stanovených IT strategií. Během své profesní kariéry jsem prošel pozicemi od zajištění uživatelské a technické podpory, správy serverových systémů až po řízení projektů nasazení informačních systémů do podnikové infrastruktury.</p>
+            <p>Poskytuji profesionální služby v oblasti cloudových systémů. Mým cílem je navrhnout a udržovat spolehlivou infrastrukturu informačních a komunikačních technologií, která pokrývá celou řadu požadavků stanovených IT strategií. Během své profesní kariéry jsem prošel pozicemi od zajištění uživatelské a technické podpory, správy serverových systémů až po řízení projektů nasazení informačních systémů do podnikové infrastruktury.</p>
 
             <p>V posledních 5 letech se zaměřuji na architekturu IT infrastruktury s ohledem na současné trendy Cloud computingu a zajištění kybernetické bezpečnosti.</p>
+
+            <h2>Certifikace ::</h2>
+            <ul>
+                <li>Azure Solution Architect Expert</li>
+                <li>AZ-305 Designing Microsoft Azure Infrastructure Solutions</li>
+                <li>AZ-500 Azure Security Engineer</li>
+                <li>AZ-104 Azure Administrator</li>
+                <li>AZ-900 Microsoft Azure Fundamentals</li>
+                <li>70-347 Enabling Office 365 Services</li>
+                <li>ITIL Foundation Certificate in IT Service Management</li>
+            </ul>
+
 
             <div class="mb-3">
             <span><a a class="btn btn-primary" href="https://www.linkedin.com/in/radekslachta/" role="button" target="_blank"><span data-feather="linkedin"></span></a></span>
